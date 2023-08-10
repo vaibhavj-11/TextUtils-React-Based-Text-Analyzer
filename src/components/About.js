@@ -43,7 +43,7 @@ export default function About(props) {
               aria-controls="collapseOne"
               style={{ backgroundColor: props.mode === 'dark' ? '#212529' : 'white', color: props.mode === 'dark' ? 'white' : 'black' }}
             >
-              Accordion Item #1
+              Text Statistics
             </button>
           </h2>
           <div
@@ -52,14 +52,7 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={{ backgroundColor: props.mode === 'dark' ? '#212529' : 'white', color: props.mode === 'dark' ? 'white' : 'black' }}>
-              <strong>This is the first item's accordion body.</strong> It is
-              shown by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+            Text Utils is a text analyser which shows you some statistics about your text to help you understand its readability. It shows you Text statistics like Number of Words, Number of Characters, Number of Sentences, Number of Paragraphs, Number of Sentences and Words per Sentence.
             </div>
           </div>
         </div>
@@ -74,7 +67,7 @@ export default function About(props) {
               aria-controls="collapseTwo"
               style={{ backgroundColor: props.mode === 'dark' ? '#212529' : 'white', color: props.mode === 'dark' ? 'white' : 'black' }}
             >
-              Accordion Item #2
+              Text Conversion
             </button>
           </h2>
           <div
@@ -83,14 +76,7 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body"style={{ backgroundColor: props.mode === 'dark' ? '#212529' : 'white', color: props.mode === 'dark' ? 'white' : 'black' }}>
-              <strong>This is the second item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              Using this tool, you can convert your text from lowercase to uppercase and vice versa, you can also copy the text after modification directly into your clipboard.
             </div>
           </div>
         </div>
@@ -105,7 +91,7 @@ export default function About(props) {
               aria-controls="collapseThree"
               style={{ backgroundColor: props.mode === 'dark' ? '#212529' : 'white', color: props.mode === 'dark' ? 'white' : 'black' }}
             >
-              Accordion Item #3
+              Paraphrasing tool
             </button>
           </h2>
           <div
@@ -114,14 +100,7 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={{ backgroundColor: props.mode === 'dark' ? '#212529' : 'white', color: props.mode === 'dark' ? 'white' : 'black' }}>
-              <strong>This is the third item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              You can also use our free paraphrasing tool to paraphrase your text. This tool will help you to rewrite your text in a different way. You can also use this tool to remove plagiarism from your text.
             </div>
           </div>
         </div>
