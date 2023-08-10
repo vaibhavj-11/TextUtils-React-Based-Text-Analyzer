@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .container2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .text_box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .text_box textarea {
+    width: 50%;
+    height: 300px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 17px;
+    outline: none !important;
+    border: 2px solid #e0e0e0 ;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #719ECE;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+  }
+  
+  .text_box textarea:focus {
+    outline: none !important;
+    border: 3px solid #00b0ff  ;
+    box-shadow: 0 0 5px #719ECE;
+  
+  }
+  .button_box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .button_box button, .button_box p {
+    margin: 10px;
+  }
+  .button_box button {
+    border: 2px solid #00b0ff;
+    background-color: #0d6efd;
+    color: #eee;
+    font-size: 17px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: normal;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+  }
+  .button_box button:hover {
+    background-color: #fff;
+    color: #00b0ff;
+  }
+  .button_box p {
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+  }
+  .button_box p span {
+    color: #00b0ff;
+  }
